@@ -1,0 +1,35 @@
+#nav-filter {
+    background-color: red;
+    width: 100%;
+    position: absolute;
+    top: 0.01%;
+  }
+  
+  #nav-filter .nav-items {
+    display: flex;
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  #nav-filter .nav-icon img {
+    height: 2.5rem;
+    border-radius: 35px;
+    margin: 2px;
+  }
+  
+  #nav-filter button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 0.9rem;
+    margin: 10px;
+  }
+  
+  #nav-filter .nav-btn .btn2 {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 4px;
+  }
+
