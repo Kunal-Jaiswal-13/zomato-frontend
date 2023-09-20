@@ -16,7 +16,7 @@ class Home extends React.Component {
   componentDidMount() {
     sessionStorage.clear();
     axios({
-      url: "http://localhost:3003/locationid",
+      url: "http://localhost:3003/locationId",
       method: "GET",
       headers: { "content-Type": "application/json" },
     })

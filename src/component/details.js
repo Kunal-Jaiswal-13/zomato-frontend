@@ -228,30 +228,51 @@ class Details extends React.Component {
               style={{ float: "right", borderRadius: "50%" }}
               onClick={this.closeModal}
             >
-              <span
-                style={{ padding: "7px" }}
-                className="glyphicon glyphicon-remove"
-              ></span>
+              <i className="bi bi-x"></i>
             </button>
             <div>
               <Carousel showThumbs={false}>
                 <div>
-                  <img alt="" src="assests/breakfast.jpg" className="carousel-image" />
+                  <img
+                    alt=""
+                    src="assests/breakfast.jpg"
+                    className="carousel-image"
+                  />
                 </div>
                 <div>
-                  <img alt=""  src="assests/lunch.jpg" className="carousel-image" />
+                  <img
+                    alt=""
+                    src="assests/lunch.jpg"
+                    className="carousel-image"
+                  />
                 </div>
                 <div>
-                  <img alt=""  src="assests/dinner.jpg" className="carousel-image" />
+                  <img
+                    alt=""
+                    src="assests/dinner.jpg"
+                    className="carousel-image"
+                  />
                 </div>
                 <div>
-                  <img alt="" src="assests/snacks.jpg" className="carousel-image" />
+                  <img
+                    alt=""
+                    src="assests/snacks.jpg"
+                    className="carousel-image"
+                  />
                 </div>
                 <div>
-                  <img alt="" src="assests/drink.jpg" className="carousel-image" />
+                  <img
+                    alt=""
+                    src="assests/drink.jpg"
+                    className="carousel-image"
+                  />
                 </div>
                 <div>
-                  <img alt="" src="assests/nightlife.jpg" className="carousel-image" />
+                  <img
+                    alt=""
+                    src="assests/nightlife.jpg"
+                    className="carousel-image"
+                  />
                 </div>
               </Carousel>
             </div>

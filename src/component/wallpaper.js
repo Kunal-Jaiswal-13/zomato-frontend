@@ -14,7 +14,7 @@ class Wallpaper extends React.Component {
   handleLocation = (event) => {
     const locationId = event.target.value;
     axios({
-      url: `http://localhost:3003/restaurantdata/${locationId}`,
+      url: `${process.env.REACT_APP_BASE_URL}/restaurantdata/${locationId}`,
       method: "GET",
       headers: { "content-Type": "application/json" },
     })
@@ -37,13 +37,13 @@ class Wallpaper extends React.Component {
   showSuggestion=()=>{
     const { suggestions, inputText} = this.state;
 
-    if(suggestions.length == 0 && inputText == undefined){
+    if(suggestions.length === 0 && inputText === undefined){
       return null;
     }
-    if(suggestions.length > 0 && inputText == ''){
+    if(suggestions.length > 0 && inputText === ''){
       return null;
     }
-    if(suggestions.length == 0 && inputText){
+    if(suggestions.length === 0 && inputText){
       return <ul>
         <li>No Search Results Found</li>
       </ul>

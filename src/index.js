@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Home from './component/home';
-import Filter from './component/filter';
+// import Home from './component/home';
+// import Filter from './component/filter';
 import Router from './component/router';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
